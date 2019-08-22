@@ -1,0 +1,27 @@
+
+B
+src/menu/Menu.form,8\1\81bd0e09ef836c923e656fce6aab5bde1b73a13f
+o
+?src/opciones/operacionesmatematicas/OperacionesMatematicas.form,7\e\7ef955740d7e92503ba61e29aa4ed55eef0452bb
+B
+src/main/Main.java,f\e\fe03b4fd3afe162c6e01309b98a22588e093d274
+W
+'src/clases/operaciones/Matematicas.java,5\5\554c49eaf207fa05c76958139a624fbc58dd28f8
+\
+,src/clases/operaciones/MatematicaLogica.java,8\d\8d6f44871213429442863e49775c8c25aa6b2e89
+o
+?src/opciones/operacionesmatematicas/OperacionesMatematicas.java,b\2\b25afd9779c0227adc42ebd85278d51da7d16ab1
+B
+src/menu/Menu.java,b\5\b57a6028d340a2df5ff1d52f953a0ad38eba9b8c
+Y
+)src/clases/constantes/MatematicasInt.java,7\7\772ea34933a1a35142f1133315ae773a819fe1cd
+[
++src/clases/constantes/MatematicaString.java,c\b\cb555492ffba5b4a9407d43da090835c6e7996a9
+O
+src/opciones/turnos/Turnos.java,f\3\f31f45498bdcbc8d29e1d9cfe87ff5a49bd343a3
+O
+src/opciones/turnos/Turnos.form,9\0\9001b819be189285d3df823c4d12005ac0ecda8f
+Y
+)src/clases/operaciones/JornadaLogica.java,0\4\04aaa8b30a29a4cbf76f5d3299f3098808504f31
+T
+$src/clases/operaciones/Jornadas.java,0\e\0ece21cd6e5b2f89fac5a413bced3771b6ae274b

@@ -1,19 +1,26 @@
 package menu;
 
+import static clases.constantes.MatematicaString.*;
+import static clases.constantes.MatematicasInt.*;
 import opciones.operacionesmatematicas.OperacionesMatematicas;
+import opciones.turnos.Turnos;
 
 import javax.swing.*;
+import java.awt.*;
 
 
-public class Menu extends JFrame {
+
+public class Menu extends Frame {
+
     private JPanel menuprincipal;
     private JButton operacionesMatematicasButton;
+    private JButton btnturnos;
 
     public Menu() {
         add(menuprincipal);
 
-        setTitle("menu principal");
-        setSize(500, 600);
+        setTitle(MENU.getA());
+        setSize(V500.getValor(), V600.getValor());
         operacionesMatematicasButton.addActionListener(e -> {
 
 
@@ -21,6 +28,11 @@ public class Menu extends JFrame {
             operacionesMatematicas.setVisible(true);
             this.esconderVentana();
 
+        });
+        btnturnos.addActionListener(e -> {
+            Turnos turnos = new Turnos();
+            turnos.setVisible(true);
+            this.esconderVentana();
         });
     }
 
