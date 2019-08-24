@@ -6,13 +6,13 @@ import menu.Menu;
 import javax.swing.*;
 import java.awt.*;
 public class Conversion extends Frame {
-    ConversionLogica conversionLogica = new ConversionLogica();
+    private static ConversionLogica conversionLogica = new ConversionLogica();
     private JPanel menuconversion;
     private JButton btnsalir;
     private JTextField txtcantidad;
     private JComboBox cbntipo;
     private JButton btncalcular;
-    private JLabel lblresultado;
+
 
     public Conversion(){
         add(menuconversion);
