@@ -25,3 +25,13 @@ Y
 )src/clases/operaciones/JornadaLogica.java,0\4\04aaa8b30a29a4cbf76f5d3299f3098808504f31
 T
 $src/clases/operaciones/Jornadas.java,0\e\0ece21cd6e5b2f89fac5a413bced3771b6ae274b
+L
+src/opciones/Conversion.form,0\9\0922cc019ef86acb89da4cec4179378dbf9395b1
+L
+src/opciones/Conversion.java,3\2\320225b010b632907e9a8fbdd2439f7f564fa195
+V
+&src/clases/operaciones/Conversion.java,f\1\f18d0f787102a97a68863fa2f3a99a6b725d77cd
+\
+,src/clases/operaciones/ConversionLogica.java,9\b\9b183bbd52b635c31458f153097c6f0f8a7fb283
+\
+,src/clases/operaciones/ConversionMoneda.java,5\a\5a98317ea2221322d066fa0c94bd0475df9d37c2

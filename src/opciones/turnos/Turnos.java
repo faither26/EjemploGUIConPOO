@@ -8,14 +8,14 @@ import java.awt.*;
 
 
 public class Turnos extends Frame {
-    JornadaLogica jornadaLogica = new JornadaLogica();
+    private static JornadaLogica jornadaLogica = new JornadaLogica();
     protected JPanel menuTurnos;
     protected JTextField txthoras;
     protected JComboBox cmbdias;
     protected JComboBox cmbturnos;
     protected JButton btnsalir;
     protected JButton calcularButton;
-    protected JLabel lblresultado;
+    private JTextField txtnombre;
 
     public Turnos(){
 
@@ -32,13 +32,11 @@ public class Turnos extends Frame {
             esconderVentana();
         });
         calcularButton.addActionListener(e ->  {
-            jornadaLogica.setDia(String.valueOf(cmbdias));
-            jornadaLogica.setJornada(String.valueOf(cmbturnos));
+            jornadaLogica.setDia(cmbdias.getSelectedIndex());
+            jornadaLogica.setJornada(cmbturnos.getSelectedIndex());
             jornadaLogica.setHoras(Integer.parseInt(txthoras.getText()));
+            JOptionPane.showMessageDialog(null,txtnombre.getText()+" su sueldo trabajado es "+jornadaLogica.calculcarjornada());
 
-            lblresultado.setText(String.valueOf(jornadaLogica.calculcarjornada()));
-
-            lblresultado.setVisible(true);
         });
     }
 

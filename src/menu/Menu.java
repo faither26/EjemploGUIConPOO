@@ -2,12 +2,15 @@ package menu;
 
 import static clases.constantes.MatematicaString.*;
 import static clases.constantes.MatematicasInt.*;
+
+import opciones.Conversion;
 import opciones.operacionesmatematicas.OperacionesMatematicas;
 import opciones.turnos.Turnos;
 
 import javax.swing.*;
 import java.awt.*;
-
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 public class Menu extends Frame {
@@ -15,6 +18,7 @@ public class Menu extends Frame {
     private JPanel menuprincipal;
     private JButton operacionesMatematicasButton;
     private JButton btnturnos;
+    private JButton conversionButton;
 
     public Menu() {
         add(menuprincipal);
@@ -33,6 +37,12 @@ public class Menu extends Frame {
             Turnos turnos = new Turnos();
             turnos.setVisible(true);
             this.esconderVentana();
+        });
+        conversionButton.addActionListener(e -> {
+            Conversion conversion = new Conversion();
+            conversion.setVisible(true);
+            this.esconderVentana();
+
         });
     }
 

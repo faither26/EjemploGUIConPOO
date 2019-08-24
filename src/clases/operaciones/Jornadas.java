@@ -2,16 +2,21 @@ package clases.operaciones;
 
 
 public class Jornadas {
-    private int horas;
-    private String dia;
-    private String jornada;
 
+    private int horas;
+    private int dia;
+    private int jornada;
+
+    public Jornadas(int horas, int dia, int jornada) {
+        this.horas = horas;
+        this.dia = dia;
+        this.jornada = jornada;
+    }
     public Jornadas() {
         this.horas = 0;
-        this.dia = "";
-        this.jornada = "";
+        this.dia = 0;
+        this.jornada = 0;
     }
-
 
     public int getHoras() {
         return horas;
@@ -21,19 +26,19 @@ public class Jornadas {
         this.horas = horas;
     }
 
-    public String getDia() {
+    public int getDia() {
         return dia;
     }
 
-    public void setDia(String dia) {
+    public void setDia(int dia) {
         this.dia = dia;
     }
 
-    public String getJornada() {
+    public int getJornada() {
         return jornada;
     }
 
-    public void setJornada(String jornada) {
+    public void setJornada(int jornada) {
         this.jornada = jornada;
     }
 }
