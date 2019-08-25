@@ -5,6 +5,9 @@ import menu.Menu;
 
 import javax.swing.*;
 import java.awt.*;
+
+import static constantes.ConstantesT.*;
+
 public class Conversion extends Frame {
     private static ConversionLogica conversionLogica = new ConversionLogica();
     private JPanel menuconversion;
@@ -18,7 +21,7 @@ public class Conversion extends Frame {
         add(menuconversion);
 
 
-        setTitle("Conversion");
+        setTitle(TC.getAa());
         setSize(500,600);
         btnsalir.addActionListener(e -> {
             Menu menu = new Menu();
